@@ -11,7 +11,3 @@ export interface INavbarItem {
   subLinks?: ISubLink[];
   isButton?: boolean;
 }
-
-export interface INavbar {
-  navbar: INavbarItem[];
-}
