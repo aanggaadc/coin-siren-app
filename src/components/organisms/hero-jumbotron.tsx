@@ -45,13 +45,7 @@ export default function HeroJumbotron({
 
   return (
     <>
-      <article
-        className="hero_jumbotron_wrapper
-      max-w-[1201.5px] w-full mx-auto
-      grid grid-cols-2
-      max-lg:grid-cols-1
-      "
-      >
+      <article className="hero_jumbotron_wrapper max-w-[1201.5px] w-full mx-auto grid grid-cols-2 max-lg:grid-cols-1 pt-10 lg:pt-0">
         <section className="">
           <section className="left_top_container px-4 max-w-[579px] flex flex-col gap-4">
             {/* top-tooltip */}

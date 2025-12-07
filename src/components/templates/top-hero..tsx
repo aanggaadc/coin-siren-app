@@ -38,9 +38,9 @@ export default function TopNavHero() {
   }
 
   return (
-    <section className="main_jumbotron max-lg:pb-[60px] pb-[108px]">
+    <div className="relative main_jumbotron flex flex-col justify-center item-center min-h-screen">
       <Navbar navContent={navData} />
       <HeroJumbotron leftContent={heroContent} rightContent={heroContent2} />
-    </section>
+    </div>
   );
 }

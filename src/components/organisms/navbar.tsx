@@ -22,7 +22,7 @@ export default function Navbar({ navContent }: { navContent: INavbarItem[] }) {
   }, [toggled]);
 
   return (
-    <section>
+    <header className="absolute top-0 left-0 w-full">
       <nav className="flex justify-between items-center h-[60px] relative box-border px-4 max-w-[1201.5px] w-full mx-auto">
         <div className="logo_image_wrapper relative w-[114px] height-[21px]">
           <img
@@ -63,6 +63,6 @@ export default function Navbar({ navContent }: { navContent: INavbarItem[] }) {
           <HumButton toggled={toggled} setToggled={setToggled} />
         </div>
       </nav>
-    </section>
+    </header>
   );
 }

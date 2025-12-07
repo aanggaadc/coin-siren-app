@@ -14,9 +14,7 @@ function Layout({ children }: { children: React.ReactNode }) {
     <html lang={currentLang} className="font-poppins">
       <body>
         <main className="bg-slight_light">
-          <header>
-            <TopNavHero />
-          </header>
+          <TopNavHero />
 
           {children}
 
