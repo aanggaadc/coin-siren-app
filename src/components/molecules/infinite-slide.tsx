@@ -28,7 +28,7 @@ export default function InfiniteSlider({
   };
 
   return (
-    <div className="max-w-[1201.5px] px-4 mx-auto mt-2 max-md:hidden">
+    <div className="hidden lg:block mx-auto mt-2">
       <div className="slider-container">
         <Slider {...settings2}>
           {items?.map((item, index) => (

@@ -109,7 +109,7 @@ export default function HeroJumbotron({
           <CardSlider slider_content={rightContent} />
         </div>
 
-        <section className="check_boxes_wrapper flex px-4 flex-wrap gap-x-2 gap-y-8 md:hidden">
+        <section className="check_boxes_wrapper flex px-4 flex-wrap gap-x-2 gap-y-8 lg:hidden">
           {checkboxes_sm_screen?.map((item, index) => (
             <div className="flex gap-3 items-center min-w-[109px]" key={index}>
               <img
@@ -122,7 +122,7 @@ export default function HeroJumbotron({
             </div>
           ))}
         </section>
-        <article className="text_for_mobile mt-4 px-4 md:hidden">
+        <article className="text_for_mobile mt-4 px-4 lg:hidden">
           <Text className="text-[#FBFF23] underline">
             {developer_section_lg_screen?.question}
           </Text>
