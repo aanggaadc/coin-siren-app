@@ -8,14 +8,13 @@ import AccordionContent from "../molecules/accordion-content";
 import NavLink from "../molecules/nav-link";
 import NavDropdown from "../molecules/nav-dropdown";
 
-import type { INavbar } from "@/types";
+import type { INavbarItem } from "@/types";
 
-export default function Navbar({ navContent }: { navContent: INavbar }) {
+export default function Navbar({ navContent }: { navContent: INavbarItem[] }) {
   const [toggled, setToggled] = useState(false);
-  const { navbar } = navContent ?? {};
 
-  const logoData = navbar?.[0];
-  const logoSubLinkedData = navbar?.[1];
+  const logoData = navContent?.[0];
+  const logoSubLinkedData = navContent?.[1];
   const { title, subLinks } = logoSubLinkedData ?? {};
 
   useEffect(() => {
@@ -27,12 +26,11 @@ export default function Navbar({ navContent }: { navContent: INavbar }) {
       <nav className="flex justify-between items-center h-[60px] relative box-border px-4 max-w-[1201.5px] w-full mx-auto">
         <div className="logo_image_wrapper relative w-[114px] height-[21px]">
           <img
-            src={logoData?.icon || ""}
-            alt={logoData?.logo || ""}
+            src={`images/${logoData?.icon}`}
+            alt={`images/${logoData?.logo}`}
             width={114}
             height={21}
           />
-          <LocaleSwitch />
         </div>
         <ul
           className={`nav_links flex gap-[60px] 
@@ -49,16 +47,21 @@ export default function Navbar({ navContent }: { navContent: INavbar }) {
           </NavLink>
           <AccordionContent />
           <NavLink>
-            <Text>{navbar?.[2]?.title}</Text>
+            <Text>{navContent?.[2]?.title}</Text>
           </NavLink>
           <NavLink>
-            <Button className="md:hidden">{navbar?.[3]?.title}</Button>
+            <Button className="md:hidden">{navContent?.[3]?.title}</Button>
           </NavLink>
         </ul>
-        <Button className="max-md:hidden font-black">
-          {navbar?.[3]?.title}
-        </Button>
-        <HumButton toggled={toggled} setToggled={setToggled} />
+
+        <div className="flex items-center gap-2">
+          <LocaleSwitch />
+
+          <Button className="max-md:hidden font-black">
+            {navContent?.[3]?.title}
+          </Button>
+          <HumButton toggled={toggled} setToggled={setToggled} />
+        </div>
       </nav>
     </section>
   );

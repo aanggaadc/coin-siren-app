@@ -26,7 +26,7 @@ const CardSlider = ({
         <section className="relative inline-block bg-nephritis text-black text-lg font-semibold px-4 py-2 rounded-lg box-content">
           <div className="flex gap-[0.5px]">
             <img
-              src="/dollar_icon.png"
+              src="images/dollar_icon.png"
               width={26}
               height={26}
               alt="dollar icon"
@@ -35,8 +35,7 @@ const CardSlider = ({
               className="text-lg mr-[0.5px] font-black text-primary_green"
               size={"mdx"}
             >
-              {" "}
-              월 100만원{" "}
+              월 100만원
             </Text>
           </div>
           <div className="absolute w-3 h-3 bg-nephritis rotate-45 top-[38px] left-[50%]"></div>
@@ -81,14 +80,14 @@ const CardSlider = ({
                 <div className="top_slider_card_section flex justify-center items-center flex-col">
                   <div className="image_wrapper relative w-[120px] height=[120px] max-md:w-16 max-md:h-16">
                     <img
-                      src={image}
+                      src={`images/${image}`}
                       width={120}
                       height={120}
                       className="max-md:w-16"
                       alt="girl image"
                     />
                     <img
-                      src={flag_icon}
+                      src={`images/${flag_icon}`}
                       width={25}
                       height={18}
                       alt="flag icon"
@@ -100,7 +99,7 @@ const CardSlider = ({
                   </Text>
                   <Text
                     size={"md"}
-                    className="text-[#4a77ff] leading-[150%] font-black text-center max-md:text-sm"
+                    className="text-primary_blue leading-[150%] font-black text-center max-md:text-sm"
                   >
                     {job}
                   </Text>

@@ -119,7 +119,7 @@ export default function HeroJumbotron({
           {checkboxes_sm_screen?.map((item, index) => (
             <div className="flex gap-3 items-center min-w-[109px]" key={index}>
               <img
-                src="/checkbox.png"
+                src="images/checkbox.png"
                 width={20}
                 height={20}
                 alt="checkbox-icon"

@@ -19,7 +19,9 @@ export default function MiddleGrid({
       >
         <div className="logo_detail_wrapper flex flex-col gap-y-4">
           <img
-            src={logo?.src ?? "/logo_secondary.png"}
+            src={
+              logo?.src ? `images/${logo?.src}` : "/images/logo_secondary.png"
+            }
             width={187}
             height={34}
             alt={"hyperhire logo"}
@@ -33,10 +35,10 @@ export default function MiddleGrid({
           </Text>
         </div>
         <div className="phone_email_wrapper flex flex-col gap-y-2">
-          <Text className="leading-[150%] font-black text-[13px] text-[#5e626f]">
+          <Text className="leading-[150%] font-black text-[13px] text-lightest_black">
             {contact?.phone}
           </Text>
-          <Text className="leading-[150%] font-black text-[13px] text-[#5e626f]">
+          <Text className="leading-[150%] font-black text-[13px] text-lightest_black">
             {contact?.email}
           </Text>
         </div>
@@ -54,7 +56,11 @@ export default function MiddleGrid({
               key={index}
             >
               <img
-                src={service?.icon?.src ?? "/codeicon.png"}
+                src={
+                  service?.icon?.src
+                    ? `images/${service?.icon?.src}`
+                    : "/images/codeicon.png"
+                }
                 width={40}
                 height={40}
                 alt="code tag icon"
@@ -70,7 +76,11 @@ export default function MiddleGrid({
               <Text className="mt-4 flex items-center text-lightest_black">
                 {service?.link_text}{" "}
                 <img
-                  src={service.link_icon.src ?? "/arrow_right_square.png"}
+                  src={
+                    service.link_icon.src
+                      ? `images/${service.link_icon.src}`
+                      : "/images/arrow_right_square.png"
+                  }
                   className="ml-2"
                   alt="arrow right icon"
                   height={17}

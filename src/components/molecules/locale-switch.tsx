@@ -23,15 +23,13 @@ const LocaleSwitch = () => {
   const localeFlag = locale === "en-US" ? "/usa_flag.png" : "/kor_flag.png";
 
   return (
-    <section className="absolute -top-3 -right-3">
-      <button
-        onClick={(e) =>
-          handleLocaleChange(e, locale === "en-US" ? "ko-KR" : "en-US")
-        }
-      >
-        <img src={localeFlag} alt={locale} width={20} height={20} />
-      </button>
-    </section>
+    <button
+      onClick={(e) =>
+        handleLocaleChange(e, locale === "en-US" ? "ko-KR" : "en-US")
+      }
+    >
+      <img src={`images/${localeFlag}`} alt={locale} width={20} height={20} />
+    </button>
   );
 };
 

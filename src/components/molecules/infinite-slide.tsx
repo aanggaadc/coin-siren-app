@@ -33,13 +33,13 @@ export default function InfiniteSlider({
         <Slider {...settings2}>
           {items?.map((item, index) => (
             <div
-              className="bg-white bg-opacity-[20%] rounded-md mr-2"
+              className="bg-white/20 rounded-lg mr-2"
               style={{ width: 332 }}
               key={index}
             >
               <article className="slider_card flex box-border gap-x-2.5 p-4 items-center animate-fadeIn">
                 <img
-                  src={item?.icon}
+                  src={`images/${item?.icon}`}
                   width={36}
                   height={56}
                   alt="frame for slide"
