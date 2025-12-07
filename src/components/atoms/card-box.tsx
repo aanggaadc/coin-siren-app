@@ -1,5 +1,5 @@
 import { cva } from "class-variance-authority";
-import cn from "@/utils";
+import cn from "@/lib/utils";
 
 import type { IBoxProps } from "@/types";
 import type { VariantProps } from "class-variance-authority";
