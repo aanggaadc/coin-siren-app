@@ -65,7 +65,7 @@ export default function HeroJumbotron({
               <Text size={"lg"} className="leading-[130%]">
                 {short_brief}
               </Text>
-              <Text size={"lg"} className="leading-[130%] md:text-nowrap">
+              <Text size={"lg"} className="leading-[130%]">
                 {question}
               </Text>
             </article>
