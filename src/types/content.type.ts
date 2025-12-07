@@ -19,7 +19,7 @@ export interface MainContent {
   address?: AddressInfo;
 }
 
-export interface IPrime_company_data {
+export interface IPrimeCompanyData {
   company_primary_data_?: {
     logo: ImageData;
     description: string;
@@ -28,7 +28,7 @@ export interface IPrime_company_data {
   services?: Service[];
 }
 
-export interface ISecondary_company_data {
+export interface ISecondaryCompanyData {
   company: CompanyInfo;
   registration: RegistrationInfo;
   address: AddressInfo;
