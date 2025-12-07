@@ -1,0 +1,244 @@
+{
+    "navbar": [
+        {
+            "logo": "Your Logo Name",
+            "link": "/#",
+            "icon": "/logo.png"
+        },
+        {
+            "title": "Recruitment",
+            "link": "/#",
+            "subLinks": [
+                {
+                    "title": "Recruitment",
+                    "link": "/#"
+                },
+                {
+                    "title": "Remote Hiring of Overseas Developers",
+                    "link": "/#"
+                },
+                {
+                    "title": "Remote Hiring for Non-Development Roles (Foreigners)",
+                    "link": "/#"
+                },
+                {
+                    "title": "Hiring Foreigners Who Speak Korean",
+                    "link": "/#"
+                }
+            ]
+        },
+        {
+            "title": "Overseas Developer Utilization Service",
+            "link": "/#"
+        },
+        {
+            "title": "Contact Us",
+            "link": "/#",
+            "isButton": true
+        }
+    ],
+    "left_content": {
+        "job_description": {
+            "job_type": "Full-time, Part-time",
+            "short_brief": "Top-tier talent",
+            "question": "Are you looking for foreign talent?",
+            "description": "Hire remotely within a week without the burden of legal and HR management."
+        },
+        "developer_section_lg_screen": {
+            "question": "Do you need a developer?"
+        },
+        "salary_lg_screen": {
+            "average": "Average monthly salary: 1.2 million KRW",
+            "note": "Wages are calculated based on the respective country."
+        },
+        "replacement_policy_lg_screen": {
+            "maximum_replacements": "Up to 3 replacements",
+            "note": "Don't worry if the hire doesn't fit. You can replace up to 3 times."
+        },
+        "working_hours_lg_screen": {
+            "maximum_hours": "Average 3 days, up to 10 days",
+            "details": "Quick hiring is available even for urgent needs."
+        },
+        "checkboxes_sm_screen": [
+            {
+                "title": "Korean Language Proficiency"
+            },
+            {
+                "title": "Work Performance Ability"
+            },
+            {
+                "title": "Side Job Status"
+            },
+            {
+                "title": "Reference Check"
+            }
+        ],
+        "slide_items_lg_screen": [
+            {
+                "icon": "/frame1.png",
+                "title": "Overseas Marketing"
+            },
+            {
+                "icon": "/frame1.png",
+                "title": "Publisher"
+            },
+            {
+                "icon": "/frame1.png",
+                "title": "CAD Designer (Draftsman)"
+            },
+            {
+                "icon": "/frame1.png",
+                "title": "Overseas Sales"
+            },
+            {
+                "icon": "/frame1.png",
+                "title": "Overseas Customer Service"
+            }
+        ]
+    },
+    "right_content": [
+        {
+            "image": "/lady_on_slider.png",
+            "flag_icon": "/flag_icon.png",
+            "name": "Abhishek Gupta",
+            "job": "Marketing · 2y+",
+            "description": "Marketing content creation",
+            "sub_description": "Instagram management",
+            "detail_1": "Twitter management",
+            "detail_2": "Blog writing"
+        },
+        {
+            "image": "/lady_on_slider.png",
+            "flag_icon": "/flag_icon.png",
+            "name": "Abhishek Gupta",
+            "job": "Marketing · 2y+",
+            "description": "Marketing content creation",
+            "sub_description": "Instagram management",
+            "detail_1": "Twitter management",
+            "detail_2": "Blog writing"
+        },
+        {
+            "image": "/lady_on_slider.png",
+            "flag_icon": "/flag_icon.png",
+            "name": "Abhishek Gupta",
+            "job": "Marketing · 2y+",
+            "description": "Marketing content creation",
+            "sub_description": "Instagram management",
+            "detail_1": "Twitter management",
+            "detail_2": "Blog writing"
+        }
+    ],
+    "main_content": [
+        {
+            "company_primary_data_": {
+                "logo": {
+                    "src": "/logo_secondary.png",
+                    "width": 187,
+                    "height": 34,
+                    "alt": "hyperhire logo"
+                },
+                "description": "We match the best talent beyond national barriers.",
+                "contact": {
+                    "phone": "010-0000-0000",
+                    "email": "aaaaa@naver.com"
+                }
+            },
+            "services": [
+                {
+                    "icon": {
+                        "src": "/codeicon.png",
+                        "width": 40,
+                        "height": 40,
+                        "alt": "code tag icon"
+                    },
+                    "title": "Remote Hiring of Overseas Developers",
+                    "link_text": "Go to Link",
+                    "link_icon": {
+                        "src": "/arrow_right_square.png",
+                        "width": 17,
+                        "height": 17,
+                        "alt": "arrow right icon"
+                    }
+                },
+                {
+                    "icon": {
+                        "src": "/person_icon.png",
+                        "width": 40,
+                        "height": 40,
+                        "alt": "person icon"
+                    },
+                    "title": "Remote Hiring of Foreigners (Visa-free)",
+                    "link_text": "Go to Link",
+                    "link_icon": {
+                        "src": "/arrow_right_square.png",
+                        "width": 17,
+                        "height": 17,
+                        "alt": "arrow right icon"
+                    }
+                },
+                {
+                    "icon": {
+                        "src": "/kor_icon.png",
+                        "width": 40,
+                        "height": 40,
+                        "alt": "korean flag icon"
+                    },
+                    "title": "Hiring Foreigners Who Speak Korean",
+                    "link_text": "Go to Link",
+                    "link_icon": {
+                        "src": "/arrow_right_square.png",
+                        "width": 17,
+                        "height": 17,
+                        "alt": "arrow right icon"
+                    }
+                },
+                {
+                    "icon": {
+                        "src": "/setting_icon.png",
+                        "width": 40,
+                        "height": 40,
+                        "alt": "settings icon"
+                    },
+                    "title": "Services Utilizing Overseas Developers",
+                    "link_text": "Go to Link",
+                    "link_icon": {
+                        "src": "/arrow_right_square.png",
+                        "width": 17,
+                        "height": 17,
+                        "alt": "arrow right icon"
+                    }
+                }
+            ]
+        },
+        {
+            "company": {
+                "name": "Company Name",
+                "ceo": "CEO",
+                "details": [
+                    {
+                        "company_name": "Hyperhire",
+                        "ceo_name": "Juhyun Kim"
+                    },
+                    {
+                        "company_name": "Hyperhire India Private Limited",
+                        "ceo_name": "Juhyun Kim"
+                    }
+                ]
+            },
+            "registration": {
+                "business_cin": "사업자등록번호 CIN",
+                "business_registration_number": "427-86-01187",
+                "CIN": "U74110DL2016PTC290812"
+            },
+            "address": {
+                "korea": "479 Gangnam-daero, Seocho-gu, Seoul, B1-238",
+                "india": "D-138, Street number 11, Jagjeet Nagar, North East Delhi, New Delhi, 110053 India"
+            }
+        }
+    ],
+    "footer_content": [
+        {
+            "content": "&copy; 2024 Hyperhire"
+        }
+    ]
+}
