@@ -3,7 +3,7 @@ import Text from "../atoms/text";
 
 import type { ISecondaryCompanyData } from "@/types";
 
-export default function Middlegrid2({
+export default function SecondMiddleGrid({
   secondContent,
 }: {
   secondContent: ISecondaryCompanyData;

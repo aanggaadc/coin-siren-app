@@ -3,7 +3,7 @@ import Text from "../atoms/text";
 
 import type { IPrimeCompanyData } from "@/types";
 
-export default function Middlegrid({
+export default function MiddleGrid({
   company_prime_data,
 }: {
   company_prime_data: IPrimeCompanyData;
